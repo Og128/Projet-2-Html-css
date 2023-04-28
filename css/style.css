@@ -132,7 +132,7 @@ body {
 #search {
     text-align: center;
     width: 195px;
-    outline:none;
+    outline: none;
     border: none;
     font-size: 18px;
     font-weight: 700;
@@ -174,11 +174,11 @@ body {
     display: flex;
     gap: 15px;
     min-width: 350px;
-    min-height:50px;
+    min-height: 50px;
 }
 
 .filter button {
-    display:flex;
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
     background-color: white;
@@ -398,14 +398,15 @@ button i {
 @media (max-width: 1024px) {
 
 
-    .filter{
+    .filter {
         flex-direction: column;
-        row-gap:2px;
+        row-gap: 2px;
     }
 
-    .filter-text{
-        margin-top:0px;
+    .filter-text {
+        margin-top: 0px;
     }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -519,21 +520,21 @@ button i {
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        position:relative;
+        position: relative;
     }
 
     #search {
         width: 100%;
-        margin-right:50px;
+        margin-right: 50px;
     }
 
     .searchbox-button {
-        position:absolute;
-        left:83%;
+        position: absolute;
+        left: 83%;
         width: 50px;
         aspect-ratio: 1/1;
         border-radius: 15px;
-        margin-right:20px;
+        margin-right: 20px;
     }
 
     .fa-magnifying-glass {

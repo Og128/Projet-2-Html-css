@@ -177,7 +177,7 @@ body {
     gap: 15px;
 }
 
-.filter-button {
+.filter-buttons {
     display: flex;
     gap: 15px;
     min-width: 350px;
@@ -565,7 +565,7 @@ button i {
         flex-direction: column;
     }
 
-    .filter-button {
+    .filter-buttons {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;

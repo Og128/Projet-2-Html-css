@@ -126,8 +126,8 @@ body {
     justify-content: center;
     min-width: 50px;
     background-color: var(--main-bg-color);
-    border-top-left-radius: 100vmax;
-    border-bottom-left-radius: 100vmax;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .fa-location-dot {
@@ -136,7 +136,8 @@ body {
 }
 
 #search {
-    text-align: center;
+    text-align: start;
+    padding-left: 24px;
     width: 195px;
     outline: none;
     border: none;
@@ -144,6 +145,11 @@ body {
     font-weight: 700;
     border-top: 2px solid var(--main-bg-color);
     border-bottom: 2px solid var(--main-bg-color);
+}
+
+input::placeholder {
+    color: var(--main-text-color);
+    opacity: 1;
 }
 
 .searchbox-button {
@@ -196,7 +202,7 @@ body {
     padding: 0px 15px;
 }
 
-.filter button:active {
+.filter button:hover {
     background-color: var(--filter-bg-color);
 }
 
@@ -278,11 +284,15 @@ button i {
 }
 
 .hebergements-cards .card-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
     margin: 8px 0px;
 }
 
 .hebergements-cards .card-subtitle {
-    font-size:14px;
+    font-size: 14px;
     margin: 8px 0px
 }
 
@@ -336,7 +346,7 @@ button i {
 }
 
 .populaires-cards .card-subtitle {
-    font-size:14px;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -399,7 +409,7 @@ button i {
     margin-left: 20px;
 }
 
-.foot-cols-title{
+.foot-cols-title {
     font-size: 18px;
 }
 
@@ -504,14 +514,14 @@ button i {
         border-bottom: 2px solid var(--main-bg-color)
     }
 
-    .nav-link-group:hover {
-        color:var(--main-color);
+    .nav-link-group:active {
+        color: var(--main-color);
         border-bottom: 2px solid var(--main-color);
     }
 
     .nav-link {
-        display:block;
-        padding-bottom:15px;
+        display: block;
+        padding-bottom: 15px;
         font-size: 16px;
     }
 

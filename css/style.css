@@ -204,6 +204,7 @@ input::placeholder {
 
 .filter button:hover {
     background-color: var(--filter-bg-color);
+    cursor: pointer;
 }
 
 button i {
